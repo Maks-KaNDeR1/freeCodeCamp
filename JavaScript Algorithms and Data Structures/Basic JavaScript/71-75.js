@@ -1,15 +1,12 @@
 // 71 - 
 function testElse(val) {
     let result = "";
-    // Only change code below this line
 
     if (val > 5) {
         result = "Bigger than 5";
     } else {
         result = "5 or Smaller";
     }
-
-    // Only change code above this line
     return result;
 }
 
@@ -43,7 +40,6 @@ orderMyLogic(7);
 
 //   74 - 
 function testSize(num) {
-    // Only change code below this line
     if (num < 5) {
         return "Tiny"
     } else if (num < 10) {
@@ -55,7 +51,6 @@ function testSize(num) {
     } else {
         return "Huge"
     }
-    // Only change code above this line
 }
 
 testSize(7);
@@ -64,7 +59,6 @@ testSize(7);
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
 function golfScore(par, strokes) {
-    // Only change code below this line
     if (strokes == 1) {
         return "Hole-in-one!";
     } else if (strokes <= par - 2) {
@@ -80,7 +74,6 @@ function golfScore(par, strokes) {
     } else {
         return "Go Home!";
     }
-    // Only change code above this line
 }
 
 golfScore(5, 4);

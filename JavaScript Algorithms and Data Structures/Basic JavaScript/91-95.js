@@ -64,7 +64,6 @@ const myPlants = [
 const secondTree = myPlants[1].list[1];
 
 // 95 - 
-// Setup
 const recordCollection = {
     2548: {
         albumTitle: 'Slippery When Wet',
@@ -85,7 +84,6 @@ const recordCollection = {
     }
 };
 
-// Only change code below this line
 function updateRecords(records, id, prop, value) {
     if (prop !== 'tracks' && value !== "") {
         records[id][prop] = value;

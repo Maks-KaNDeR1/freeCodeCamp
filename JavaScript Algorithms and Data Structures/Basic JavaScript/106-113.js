@@ -1,15 +1,12 @@
 
 // 106 - 
 function randomWholeNum() {
-    // Only change code below this line
     return Math.floor(Math.random() * 10);
 }
 
 //   107 - 
 function randomRange(myMin, myMax) {
-    // Only change code below this line
     return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
-    // Only change code above this line
 }
 
 //   108 - 
@@ -46,7 +43,6 @@ function checkSign(num) {
 checkSign(10);
 
 //   112 - 
-// Only change code below this line
 function countdown(n) {
     if (n < 1) {
         return [];
@@ -56,7 +52,6 @@ function countdown(n) {
         return arr;
     }
 }
-// Only change code above this line
 
 //   113 - 
 function rangeOfNumbers(startNum, endNum) {

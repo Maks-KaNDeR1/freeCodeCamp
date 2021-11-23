@@ -5,12 +5,10 @@ const testObj = {
     19: "Unitas"
 };
 
-// Only change code below this line
-const playerNumber = 16;  // Change this line
-const player = testObj[playerNumber];   // Change this line 
+const playerNumber = 16;
+const player = testObj[playerNumber];
 
 //   87 - 
-// Setup
 const myDog = {
     "name": "Coder",
     "legs": 4,
@@ -18,7 +16,6 @@ const myDog = {
     "friends": ["freeCodeCamp Campers"]
 };
 
-// Only change code below this line
 myDog.name = "Happy Coder";
 
 //   88 - 
@@ -31,7 +28,6 @@ const myDog = {
 myDog["bark"] = "woof";
 
 //   89 - 
-// Setup
 const myDog = {
     "name": "Happy Coder",
     "legs": 4,
@@ -40,7 +36,6 @@ const myDog = {
     "bark": "woof"
 };
 
-// Only change code below this line
 delete myDog.tails
 
 //   90 - 
@@ -54,11 +49,8 @@ function phoneticLookup(val) {
         "echo": "Easy",
         "foxtrot": "Frank"
     };
-    // After converting our case statements into object properties you can make use of the variable `result` to let the function return the correct value.
-
 
     result = lookup[val];
-    // Only change code above this line
     return result;
 }
 

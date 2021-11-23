@@ -1,25 +1,20 @@
 // 101 - 
 function multiplyAll(arr) {
     var product = 1;
-    // Only change code below this line
     for (var i = 0; i < arr.length; i++) {
         for (var j = 0; j < arr[i].length; j++) {
             product = product * arr[i][j];
         }
     }
-    // Only change code above this line
     return product;
 }
 
-// Modify values below to test your code
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 //   102 - 
-// Setup
 const myArray = [];
 let i = 10;
 
-// Only change code below this line
 do {
     myArray.push(i);
     i++;
@@ -27,17 +22,14 @@ do {
 
 103 -
     function sum(arr, n) {
-        // Only change code below this line
         if (n <= 0) {
             return 0;
         } else {
             return sum(arr, n - 1) + arr[n - 1];
         }
-        // Only change code above this line
     }
 
 //   104 - 
-// Setup
 const contacts = [
     {
         firstName: "Akira",
@@ -66,7 +58,6 @@ const contacts = [
 ];
 
 function lookUpProfile(name, prop) {
-    // Only change code below this line
     for (let x = 0; x < contacts.length; x++) {
         if (contacts[x].firstName === name) {
             if (contacts[x].hasOwnProperty(prop)) {
@@ -77,7 +68,6 @@ function lookUpProfile(name, prop) {
         }
     }
     return "No such contact";
-    // Only change code above this line
 }
 
 lookUpProfile("Akira", "likes");
@@ -85,7 +75,6 @@ lookUpProfile("Akira", "likes");
 //   105 - 
 function randomFraction() {
 
-    // Only change code below this line
     var result = 0;
 
     while (result === 0) {
@@ -93,5 +82,4 @@ function randomFraction() {
     }
 
     return result;
-    // Only change code above this line
 }

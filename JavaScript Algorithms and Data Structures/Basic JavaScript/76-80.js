@@ -1,7 +1,6 @@
 // 76 - 
 function caseInSwitch(val) {
     let answer = "";
-    // Only change code below this line
     switch (val) {
         case 1:
             return "alpha";
@@ -16,7 +15,6 @@ function caseInSwitch(val) {
             return "delta";
             break;
     }
-    // Only change code above this line
     return answer;
 }
 
@@ -25,7 +23,6 @@ caseInSwitch(1);
 //   77 - 
 function switchOfStuff(val) {
     let answer = "";
-    // Only change code below this line
 
     switch (val) {
         case "a":
@@ -40,7 +37,6 @@ function switchOfStuff(val) {
         default:
             answer = "stuff";
     }
-    // Only change code above this line
     return answer;
 }
 
@@ -49,7 +45,6 @@ switchOfStuff(1);
 //   78 - 
 function sequentialSizes(val) {
     let answer = "";
-    // Only change code below this line
     switch (val) {
         case 1:
         case 2:
@@ -59,7 +54,6 @@ function sequentialSizes(val) {
         case 4:
         case 5:
         case 6:
-
             answer = "Mid"
             break;
         case 7:
@@ -67,7 +61,6 @@ function sequentialSizes(val) {
         case 9:
             answer = "High"
     }
-    // Only change code above this line
     return answer;
 }
 
@@ -76,7 +69,6 @@ sequentialSizes(1);
 //   79 - 
 function chainToSwitch(val) {
     let answer = "";
-    // Only change code below this line
     switch (val) {
         case "bob":
             answer = "Marley";
@@ -93,7 +85,6 @@ function chainToSwitch(val) {
         case 7:
             answer = "Ate Nine";
     }
-    // Only change code above this line
     return answer;
 }
 
@@ -101,9 +92,7 @@ chainToSwitch(7);
 
 //   80 - 
 function isLess(a, b) {
-    // Only change code below this line
     return (a < b);
-    // Only change code above this line
 }
 
 isLess(10, 15);
