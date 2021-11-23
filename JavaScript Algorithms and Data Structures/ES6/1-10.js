@@ -15,9 +15,9 @@ function checkScope() {
 const s = [5, 7, 2];
 function editInPlace() {
   s[0] = 2;
-s[1] = 5;
-s[2] = 7;
-console.log(s);
+  s[1] = 5;
+  s[2] = 7;
+  console.log(s);
 }
 editInPlace();
 
@@ -26,10 +26,10 @@ function freezeObj() {
   const MATH_CONSTANTS = {
     PI: 3.14
   };
-Object.freeze(MATH_CONSTANTS);
+  Object.freeze(MATH_CONSTANTS);
   try {
     MATH_CONSTANTS.PI = 99;
-  } catch(ex) {
+  } catch (ex) {
     console.log(ex);
   }
   return MATH_CONSTANTS.PI;
@@ -61,7 +61,7 @@ console.log(sum(1, 2, 3)); // 6
 const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 let arr2;
 
-arr2 = [...arr1];  
+arr2 = [...arr1];
 
 console.log(arr2);
 
@@ -72,7 +72,7 @@ const HIGH_TEMPERATURES = {
   tomorrow: 80
 };
 
-const {today, tomorrow} =  HIGH_TEMPERATURES 
+const { today, tomorrow } = HIGH_TEMPERATURES
 
 // 10 - 
 const HIGH_TEMPERATURES = {
@@ -81,5 +81,5 @@ const HIGH_TEMPERATURES = {
   tomorrow: 80
 };
 
-const {today: highToday, tomorrow: highTomorrow} =  HIGH_TEMPERATURES 
+const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES
 
