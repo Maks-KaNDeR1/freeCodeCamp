@@ -46,3 +46,56 @@ class ShoppingCart extends React.Component {
         return <Items />
     }
 };
+
+// 19
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+
+    }
+    render() {
+        return (
+            <div>
+                <Welcome name="Jessica" />
+            </div>
+        );
+    }
+};
+
+class Welcome extends React.Component {
+    constructor(props) {
+        super(props);
+
+    }
+    render() {
+        return (
+            <div>
+                <p>Hello, <strong>{this.props.name}</strong>!</p>
+            </div>
+        );
+    }
+};
+
+// 20
+class CampSite extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <div>
+                <Camper />
+            </div>
+        );
+    }
+};
+
+const Camper = props => <p>{props.name}</p>;
+
+Camper.defaultProps = {
+    name: "CamperBot"
+};
+
+Camper.propTypes = {
+    name: PropTypes.string.isRequired
+};
