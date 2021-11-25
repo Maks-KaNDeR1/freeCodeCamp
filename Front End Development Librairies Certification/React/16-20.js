@@ -1,4 +1,4 @@
-// 16
+// 16 -
 const ShoppingCart = (props) => {
     return (
         <div>
@@ -11,7 +11,7 @@ ShoppingCart.defaultProps = {
     items: 0
 };
 
-// 17
+// 17 -
 const Items = (props) => {
     return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
 }
@@ -29,7 +29,7 @@ class ShoppingCart extends React.Component {
     }
 };
 
-// 18
+// 18 -
 const Items = (props) => {
     return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
 };
@@ -47,7 +47,7 @@ class ShoppingCart extends React.Component {
     }
 };
 
-// 19
+// 19 -
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -76,7 +76,7 @@ class Welcome extends React.Component {
     }
 };
 
-// 20
+// 20 -
 class CampSite extends React.Component {
     constructor(props) {
         super(props);

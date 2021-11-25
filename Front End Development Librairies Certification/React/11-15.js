@@ -1,4 +1,4 @@
-// 11 
+// 11 -
 class Fruits extends React.Component {
     constructor(props) {
         super(props);
@@ -29,7 +29,7 @@ class TypesOfFood extends React.Component {
     }
 };
 
-// 12
+// 12 -
 class TypesOfFood extends React.Component {
     constructor(props) {
         super(props);
@@ -47,7 +47,7 @@ class TypesOfFood extends React.Component {
 
 ReactDOM.render(<TypesOfFood />, document.getElementById('challenge-node'))
 
-// 13
+// 13 -
 class MyComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -62,7 +62,7 @@ class MyComponent extends React.Component {
 };
 ReactDOM.render(<MyComponent />, document.getElementById("challenge-node"));
 
-// 14
+// 14 -
 const CurrentDate = (props) => {
     return (
         <div>
@@ -85,7 +85,7 @@ class Calendar extends React.Component {
     }
 };
 
-// 15
+// 15 -
 const List = props => {
     return <p>{props.tasks.join(", ")}</p>;
 };

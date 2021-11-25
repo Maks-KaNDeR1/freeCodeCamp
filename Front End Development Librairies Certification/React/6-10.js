@@ -1,4 +1,4 @@
-// 6
+// 6 -
 const JSX = (
     <div>
         <h2>Welcome to React!</h2> <br />
@@ -7,14 +7,14 @@ const JSX = (
     </div>
 );
 
-// 7
+// 7 -
 const MyComponent = function () {
     return (
         <div>Completed challenge!</div>
     );
 }
 
-// 8 
+// 8 -
 class MyComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -28,7 +28,7 @@ class MyComponent extends React.Component {
     }
 };
 
-// 9
+// 9 -
 const ChildComponent = () => {
     return (
         <div>
@@ -51,7 +51,7 @@ class ParentComponent extends React.Component {
     }
 }
 
-// 10
+// 10 -
 const TypesOfFruit = () => {
     return (
         <div>

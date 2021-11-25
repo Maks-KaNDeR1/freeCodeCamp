@@ -1,4 +1,4 @@
-// 21
+// 21 -
 class StatefulComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -16,7 +16,7 @@ class StatefulComponent extends React.Component {
   }
 };
 
-// 22
+// 22 -
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -33,7 +33,7 @@ class MyComponent extends React.Component {
   }
 };
 
-// 23
+// 23 -
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -53,7 +53,7 @@ class MyComponent extends React.Component {
   }
 };
 
-// 24
+// 24 -
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -71,8 +71,7 @@ class MyComponent extends React.Component {
   }
 };
 
-// 25
-
+// 25 -
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
@@ -98,7 +97,7 @@ class MyComponent extends React.Component {
   }
 };
 
-// 26 
+// 26 -
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);

@@ -1,7 +1,7 @@
-// 1
+// 1 -
 const JSX = <h1>Hello JSX!</h1>;
 
-// 2 
+// 2 -
 const JSX = <div>
     <h1>Heading.</h1>
     <p>Paragraph</p>
@@ -12,7 +12,7 @@ const JSX = <div>
     </ul>
 </div>;
 
-// 3
+// 3 -
 const JSX = (
     <div>
         <h1>This is a block of JSX</h1>
@@ -20,7 +20,7 @@ const JSX = (
         {/* */}
     </div>
 );
-// 4
+// 4 - 
 const JSX = (
     <div>
         <h1>Hello World</h1>
@@ -30,7 +30,7 @@ const JSX = (
 
 ReactDOM.render(JSX, document.getElementById("challenge-node"));
 
-// 5
+// 5 - 
 const JSX = (
     <div className='myDiv'>
         <h1>Add a class to this div</h1>
